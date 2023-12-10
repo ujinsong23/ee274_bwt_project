@@ -4,13 +4,12 @@ from scl.core.encoded_stream import EncodedBlockReader, EncodedBlockWriter
 
 
 parser = argparse.ArgumentParser()
-parser.add_argument("-d", "--decompress", help="Decompression mode if called.", action='store_true')
 parser.add_argument("-i", "--input", required=True, type=str, help="Input file directory")
+parser.add_argument("-d", "--decompress", help="Decompression mode if called.", action='store_true')
 parser.add_argument("-o", "--output", type=str,
                     help="Output file directory, locate same as input if undefined")
 parser.add_argument("--delimiter", default=130, type=int,
                     help="Decimal ascii code for delimiter. It should never occurs in the input sequence. 130 if undefined")
-
 
 
 if __name__ == "__main__":
