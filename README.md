@@ -8,7 +8,7 @@
     ```
 - Clone the repo
     ```
-    git clone https://github.com/kedartatwawadi/stanford_compression_library.git
+    git clone https://github.com/ujinsong23/ee274_bwt_project.git
     cd stanford_compression_library
     ```
 - Install the `scl` package
