@@ -7,12 +7,12 @@ from scl.core.encoded_stream import EncodedBlockReader
 
 
 parser = argparse.ArgumentParser()
-parser.add_argument("-d", "--decompressed", help="Search from decompresssed source", action='store_true')
 parser.add_argument("-i", "--input", required=True, type=str,
                     help="Input file directory. \nShould be in the appropriate form,\
                           depending on whether the searching is performed on compressed or decompressed source.")
-parser.add_argument("-q", "--query", type=str,
+parser.add_argument("-q", "--query", required=True, type=str,
                     help="Query sequence")
+parser.add_argument("-d", "--decompressed", help="Search from decompresssed source", action='store_true')
 parser.add_argument("-c", "--doublecheck", action='store_true',
                     help="Check if the result matches the naive implementation using the built-in Python function ")
 
