@@ -9,9 +9,12 @@
 - Clone the repo
     ```
     git clone https://github.com/ujinsong23/ee274_bwt_project.git
-    cd stanford_compression_library
+    cd ee274_bwt_project
     ```
 - Install the `scl` package
     ```
     pip install -e . #install the package in a editable mode
     ``` 
+
+
+## 1. Compression/Decompression with BWT
