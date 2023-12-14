@@ -58,3 +58,5 @@ allows you to search for a specific string pattern and count the total occurrenc
         ```
         python search.py -i "sherlock_ascii.txt" -q "Chapter" -d
         ```
+
+The final report can be found in https://acrobat.adobe.com/id/urn:aaid:sc:va6c2:22d9f5d5-0a0d-4e98-8a76-d48b95c79e18, and the slides can be found in https://acrobat.adobe.com/id/urn:aaid:sc:VA6C2:32dc8bfa-c4b7-43e1-83f3-4d404ad29c64.
