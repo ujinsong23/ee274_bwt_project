@@ -1,3 +1,4 @@
+_The project took place in Nov - Dec 2023_
 # ee274-bwt-project
 
 ## 0. Getting started
